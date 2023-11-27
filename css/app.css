@@ -11,8 +11,9 @@ html {
 }
 
 body {
-  font-family: "Overpass", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-weight: 400;
+  font-size: 1.15rem;
   padding: 0 !important;
   overflow-y: scroll;
   -ms-overflow-style: none;
