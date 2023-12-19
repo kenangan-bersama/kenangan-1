@@ -53,11 +53,13 @@
       crossorigin="anonymous"
     />
 
-    <!-- Tautan Google Fonts-->
+    <!-- Tautan Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Tautan Font Gabungan -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Dancing+Script:wght@400;500;600&family=Fira+Sans:wght@400;500&family=Grand+Hotel&family=Josefin+Sans:wght@400;500&family=Lobster+Two&family=Overpass:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Dancing+Script:wght@400;500;600&family=Fira+Sans:wght@400;500&family=Grand+Hotel&family=Josefin+Sans:wght@400;500&family=Lobster+Two&family=Overpass:wght@400;500&family=Roboto+Slab:wght@400;500&display=swap"
       rel="stylesheet"
     />
 
@@ -144,21 +146,34 @@
         <div class="container text-center">
           <div class="row justify-content-center">
             <div class="col-md-8">
-              <div class="section-title">
-                <h1 class="font-asyik">The Wedding Of</h1>
-                <h2 class="font-keren">Marcel &amp; Steffia</h2>
-                <div class="img-home border-custom shadow mb-4 mx-auto">
-                  <img src="./images/date-1.jpg" alt="bg" />
-                </div>
-                <h4 class="font-tanggal my-2">Minggu, 10 April 2023</h4>
-              </div>
-              <a
-                href="#date"
-                class="btn rounded-pill my-2 btn-custom text-white"
+              <div
+                class="card border rounded-pill m-3 p-4 bg-custom text-center"
               >
-                Save The Date
-                <i class="fas fa-arrow-alt-circle-right ms-2 fa-lg"></i>
-              </a>
+                <img
+                  src="./images/date-1.jpg"
+                  class="card-img-top rounded-pill rounded-bottom p-4 bg-custom"
+                  alt="Wedding Image"
+                />
+                <div class="card-body">
+                  <h5
+                    class="card-title font-asyik mt-2 mb-2 mx-0 p-0"
+                    style="text-decoration: underline"
+                  >
+                    The Wedding Of
+                  </h5>
+                  <p class="card-text font-keren mt-2 mb-2 mx-0 p-0">
+                    Marcel & Steffia
+                  </p>
+                  <p class="card-text font-tanggal mt-2 mb-2 mx-0 p-0">
+                    Minggu, 10 April 2024
+                  </p>
+                  <a
+                    href="#"
+                    class="btn btn-custom rounded-pill my-2 text-white"
+                    >Save The Date</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -166,7 +181,7 @@
 
       <section class="couple" id="mempelai">
         <div class="container">
-          <div class="card rounded-pill p-2 m-2 bg-custom">
+          <div class="card rounded-pill p-2 m-2 rounded-bottom bg-custom">
             <div class="row justify-content-center">
               <div class="col-md-8 col-10 text-center mt-5">
                 <img
@@ -1148,19 +1163,17 @@
                 style="opacity: 0.6"
               ></div>
 
-              <div class="text-center text-white position-relative z-index-1">
-                <div
-                  class="img-crop border border-3 border-light shadow mb-4 mx-auto"
-                >
-                  <img src="images/couple.png" alt="bg" />
+              <div class="text-center position-relative z-index-1">
+                <div class="img-crop border-custom shadow mb-4 mx-auto">
+                  <img src="images/couple.jpg" alt="bg" />
                 </div>
-                <span class="font-kalem">The Wedding Of</span>
-                <h1 class="font-keren">Marcel &amp; Steffia</h1>
-                <h2 class="font-keren mb-0">10.04.2024</h2>
+                <span class="font-kalem my-2">The Wedding Of</span>
+                <h1 class="font-keren my-2">Marcel &amp; Steffia</h1>
+                <h2 class="font-keren mb-2">10.04.2024</h2>
                 <div id="namatamu"></div>
                 <button
                   type="button"
-                  class="btn rounded-4 btn-custom text-white"
+                  class="btn rounded-pill mt-2 btn-custom text-white"
                   data-bs-toggle="modal"
                   data-bs-target="#exampleModal"
                   onclick="buka()"

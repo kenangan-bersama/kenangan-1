@@ -29,7 +29,7 @@ body::-webkit-scrollbar {
   background-image: url("../images/latar-belakang.png");
   background-size: cover;
   background-position: center;
-  padding-top: 10rem;
+  padding-top: 12rem;
   padding-bottom: 8rem;
 }
 
@@ -153,10 +153,10 @@ body::-webkit-scrollbar {
   font-size: 2.4rem;
 }
 
-.font-mantap {
+.font-tamu {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .font-asyik {
@@ -165,6 +165,12 @@ body::-webkit-scrollbar {
   font-size: 2.2rem;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+}
+
+.font-nama {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .font-tanggal {
@@ -254,13 +260,13 @@ body::-webkit-scrollbar {
 .btn-custom {
   background-color: #8b4513;
   color: #8b4513;
-  padding: 8px 18px;
+  padding: 6px 16px;
   border-radius: 4px;
   text-decoration: none;
   display: inline-block;
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .btn-custom:hover {
@@ -268,7 +274,7 @@ body::-webkit-scrollbar {
 }
 
 .border-custom {
-  border: 3px solid #8b4513;
+  border: 3px solid transparent;
 }
 
 .date {
